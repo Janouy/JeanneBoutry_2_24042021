@@ -31,7 +31,7 @@ a{
     text-align: center;
 }
 
-.logo{
+#logo{
 
     padding-top: 2%;
 }
@@ -39,14 +39,17 @@ a{
 #page{
 
     width: 1440px; 
-    height: 2000px;
+    height: 1700px;
+    margin: auto;
     font-family: ralewaythin, sans-serif;
+    padding-left: 30px;
  
 }
 
 #header{
 
     display:flex;
+    width: 100%;
     justify-content: space-between;
     height: 5%;
    
@@ -75,50 +78,6 @@ a{
    
 }
 
-
-#marseille{
-
-    width: 950px;
-   
-  
-}
-
-
-.carte_hebergement{
-
-    width: 250px;
-    height: 200px;
-    border: 10px #F2F2F2 solid;
-
-}
-
-
-.img{
-
-    width: 250px;
-    height: 115px;
-    
-}
-   
-.desc{
-    
-    width: 250px;
-    height: 120px;
-    
-}
-   
-span .fa-star{
-
-    color:#D9D9D9D9;
-}
-
-.img2{
-
-    width: 130px;
-    height: 134px;
-    float: left;
-
-}
 
 #titre h1{
 
@@ -219,6 +178,245 @@ font-family: ralewaybold, sans-serif;
 
 .filtre:hover{
 
-    color: #ffff;
+    color: #f2f2f2;
     background-color:#0065FC ;
 }
+
+#information{
+
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+
+.fa-info{
+
+    color: #0065FC;
+    border: 1px #F2F2F2 solid;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right:px ;
+    border-radius: 100px 100px 100px 100px;
+  
+}
+
+
+#corps{
+
+    display: flex;
+    width: 100%;
+}
+
+
+#hebergement{
+
+    background-color: #F2F2F2;
+    width: 68%;
+    margin-right: 2%;
+    border-radius: 20px 20px 20px 20px;
+   
+
+}
+
+
+
+#hebergement h2, .plus{
+
+    margin-left: 35px;
+    font-weight: bold;
+
+}
+
+
+#marseille{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.carte_hebergement{
+
+    width: 250px;
+    height: 190px;
+    margin-bottom: 20px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFF;
+
+}
+
+
+
+.img{
+
+    width: 250px;
+    height: 115px;
+    
+}
+   
+.desc{
+    
+    width: 250px;
+    height: 120px;
+    line-height: 1.6em
+    
+    
+}
+
+.desc2 span{
+
+    line-height: 3em;
+}
+
+
+   
+span .fa-star{
+
+    color:#D9D9D9D9;
+}
+
+
+.fa-star{
+
+    
+    color:#0065FC;
+    margin-top: 5px;
+}
+.img{
+
+    width: 250px;
+    height: 115px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+   
+.desc{
+    
+    width: 250px;
+    height: 120px;
+    
+}
+#pop{
+
+    display:flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 28%;
+}
+
+
+#populaires{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#pop h2{
+
+    margin-left: 35px;
+
+}
+
+.fa-chart-line{
+
+    padding-left: 25%;
+}
+
+.carte_populaire{
+
+    width: 300px;
+    height: 140px;
+    margin-bottom: 20px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFF;
+    
+
+}
+
+.img2{
+
+    width: 130px;
+    height: 134px;
+    padding-right: 5%;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+    
+
+}
+
+
+.carte_populaire h3{
+
+    font-size: 1.1em;
+    margin-bottom: 0.1em;
+}
+
+#act{
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.vignette{
+
+    
+    width: 330px;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    box-shadow: 0px 8px 6px #F2F2F2;
+}
+
+.img3{
+
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.vignette p{
+
+    padding-left: 5%;
+}
+
+#footer{
+
+    display: flex;
+    font-family: ralewaythin, sans-serif;
+    margin: auto;
+    width: 1470px;
+    background-color: #F2F2F2;
+    
+    
+}
+
+.bottom{
+
+    margin-right: 20%;
+}
+
+.bottom h5{
+
+    font-family: ralewaybold, sans-serif;
+    font-size: 1em;
+}
+
+.bottom p{
+
+    line-height: 2em;
+}
+
+
