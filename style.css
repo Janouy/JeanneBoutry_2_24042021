@@ -410,6 +410,11 @@ span .fa-star{
     
 }
 
+.img4{
+
+    display: none;
+}
+
 .vignette p{
 
     padding-left: 5%;
@@ -429,6 +434,7 @@ span .fa-star{
 .bottom{
 
     margin-right: 20%;
+    padding-left: 2%;
 }
 
 .bottom h5{
