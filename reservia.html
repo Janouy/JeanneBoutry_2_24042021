@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media=" only screen and (max-device-width: 480px)" href="style_mini.css" />
-    <link rel="stylesheet" media=" only screen and (max-device-width: 1440px)" href="style_medium.css" />
+    <link rel="stylesheet" media=" screen and (min-device-width: 481px) and (max-device-width: 768px)"
+        href="style_medium.css" />
+    <link rel="stylesheet" media=" screen and (max-device-width: 480px)" href="style_mini.css" />
+    <meta name="viewport" content="width=device-width">
     <script src="https://kit.fontawesome.com/79802d727d.js" crossorigin="anonymous"></script>
     <!-- <i class="fas fa-bus fa-7x"></i> -->
     <title>Reservia</title>
@@ -14,50 +16,52 @@
 <body>
 
     <div id="page">
-        <header id="header">
 
-            <div id="logo"> <img src="images/logo/Reservia.svg" alt="logo Reservia" id="reservia" /></div>
+        <section id="intro">
+            <header id="header">
 
-            <a href="#hebergement" class="txtblue"> Hébergements </a> <!-- ancre-->
-            <a href="#activites" class="txtblk"> Activités </a> <!-- ancre-->
-            <a href="#" class="txtblue2"> S'inscrire </a>
+                <div id="logo"> <img src="images/logo/Reservia.svg" alt="logo Reservia" id="reservia" /></div>
+
+                <a href="#hebergement" class="txtblue"> Hébergements </a> <!-- ancre-->
+                <a href="#activites" class="txtblk"> Activités </a> <!-- ancre-->
+                <a href="#" class="txtblue2"> S'inscrire </a>
 
 
-        </header>
+            </header>
 
-        <section id="titre">
+            <section id="titre">
 
-            <h1><b>Trouvez votre hébergement pour des vacances de rêve</b></h1>
-            <p> En plein centre ville ou en pleine nature</p>
+                <h1><b>Trouvez votre hébergement pour des vacances de rêve</b></h1>
+                <p> En plein centre ville ou en pleine nature</p>
 
+            </section>
+
+            <aside id="recherche">
+                <i class="fas fa-map-marker-alt"></i> <input type="text" value=" Marseille, France" id="saisie" />
+
+                <input type="submit" value="Rechercher" id="bouton" />
+                <button id="loupe"> <i class="fas fa-search fa-64 fa-4x"></button></i>
+
+            </aside>
+
+            <aside id="filtres">
+                <!-- changent d'apparence au survol-->
+
+                <p> Filtres</p>
+
+                <span class="filtre eco"><i class="fas fa-money-bill-wave"></i> &Eacute;conomique </span>
+                <span class="filtre fam"> <i class="fas fa-child"></i> Familial </span>
+                <span class="filtre rom"> <i class="fas fa-heart"></i>Romantique </span>
+                <span class="filtre ani"><i class="fas fa-dog"></i>Animaux autorisés</span>
+
+            </aside>
+
+            <aside id="information">
+
+                <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
+
+            </aside>
         </section>
-
-        <aside id="recherche">
-            <i class="fas fa-map-marker-alt"></i> <input type="text" value=" Marseille, France" id="saisie" />
-
-            <input type="submit" value="Rechercher" id="bouton" />
-            <button id="loupe"> <i class="fas fa-search fa-64 fa-4x"></button></i>
-
-        </aside>
-
-        <aside id="filtres">
-            <!-- changent d'apparence au survol-->
-
-            <p> Filtres</p>
-
-            <span class="filtre eco"><i class="fas fa-money-bill-wave"></i> &Eacute;conomique </span>
-            <span class="filtre fam"> <i class="fas fa-child"></i> Familial </span>
-            <span class="filtre rom"> <i class="fas fa-heart"></i>Romantique </span>
-            <span class="filtre ani"><i class="fas fa-dog"></i>Animaux autorisés</span>
-
-        </aside>
-
-        <aside id="information">
-
-            <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
-
-        </aside>
-
 
         <aside id="contenu">
 

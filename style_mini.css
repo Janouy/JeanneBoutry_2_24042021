@@ -1,20 +1,29 @@
 
+body{
 
-
+    
+}
 #page{
 
-    font-size: 4em;
-    
-  
+   font-size: 4em;
+   
 }
 
+#intro{
 
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 18px;
+
+
+}
 #header{
 
   
-   margin : 0;
+   margin : auto;
    flex-wrap: wrap;
-   margin-left: -30px;
+  
   
    
 }
@@ -72,7 +81,6 @@
 
     color:#0065FC;
     order: 2;
-    width: 20%;
     padding-top: 8%;
     font-weight: bold;
 
@@ -83,6 +91,8 @@
 
     margin-top: 10%;
     width: 100%;
+    
+    
    
 
 }
@@ -100,6 +110,7 @@
 
     margin-bottom: 3%;
     margin-top: 10%;
+   
     
 
    
@@ -158,6 +169,7 @@
     font-size: 0.8em;
     font-family: ralewaybold, sans-serif;
    
+   
 }
 
 #filtres p{
@@ -165,7 +177,7 @@
     margin-top: 14px;
     margin-right: 4%;
     padding-bottom: 0px;
-    margin-bottom: 0x;
+    margin-bottom: 0px;
     width: 100%;
 
 }
@@ -215,7 +227,7 @@
 
 .rom{
 
-    width: 40%;
+    width: 50%;
 }
 
 .ani{
@@ -248,11 +260,14 @@
 
     display:flex;
     flex-direction: column;
+    
+    
 }
 #corps{
 
    flex-direction: column-reverse;
    justify-content: space-around;
+  
     
 }
 
@@ -264,7 +279,7 @@
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 100%;
-    margin-left: -25px;
+   
     
 }
 
@@ -369,6 +384,7 @@
 
     display: flex;
     
+    
 }
 
 .plus{
@@ -445,12 +461,12 @@
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     font-family: ralewayregular, sans-serif;
     font-size: 4em;
     background-color: #F2F2F2;
+    width: 1340px;
     padding-left: 80px;
-    
+
     
 }
 
