@@ -18,13 +18,15 @@
 }
 
 
+
 #page{
 
     width: 1440px;
     margin: auto;
     font-family: ralewayregular, sans-serif;
-    padding-left: 30px;
- 
+    
+    
+    
 }
 
 a{
@@ -33,7 +35,15 @@ a{
     color: black;
     
 }
+#intro{
 
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 18px;
+
+
+}
 #header{
 
     display:flex;
@@ -48,7 +58,7 @@ a{
 #logo{
 
     
-    margin-left: -3.5%;
+    margin-left: -3.3%;
     padding-top: 3%;
     width: 60%;
      
@@ -113,11 +123,10 @@ font-family: ralewaybold, sans-serif;
 
 .fa-map-marker-alt{
 
-    
-    border: 2px #F2F2F2 solid;
+    border-top: 2.5px #f2f2f2 solid;
     padding: 11.5px 4px 0px 15px;
     width: 25px;
-    height: 30px;
+    height: 32px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
     
@@ -162,7 +171,7 @@ font-family: ralewaybold, sans-serif;
     margin-top: 14px;
     margin-right: 4%;
     padding-bottom: 0px;
-    margin-bottom: 0x;
+    margin-bottom: 0px;
 
 }
 
@@ -199,7 +208,8 @@ font-family: ralewaybold, sans-serif;
 }
 
 #information{
-
+    
+    
     margin-bottom: 3%;
     margin-top: 3%;
 
@@ -213,7 +223,7 @@ font-family: ralewaybold, sans-serif;
     height: 25px;
     text-align: center;
     padding-top: 5px;
-    margin-right:px ;
+    margin-right:5px;
     border-radius: 100px 100px 100px 100px;
   
 }
@@ -222,7 +232,8 @@ font-family: ralewaybold, sans-serif;
 #corps{
 
     display: flex;
-    width: 100%;
+    justify-content: center;
+    
 }
 
 
@@ -363,6 +374,8 @@ span .fa-star{
     width: 130px;
     height: 134px;
     padding-right: 5%;
+    padding-top: 2px;
+    padding-left: 2px;
     float: left;
     border-radius: 20px 0px 0px 20px;
     
@@ -376,10 +389,19 @@ span .fa-star{
     margin-bottom: 0.1em;
 }
 
+#activites{
+
+    margin-bottom: 50px;
+}
 
 #activites h1{
 
     font-family: ralewaybold, sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    
+    
+    
 }
 
 
@@ -389,9 +411,11 @@ span .fa-star{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     height: 500px;
     width: 100%;
+   
     
 }
 
@@ -423,9 +447,10 @@ span .fa-star{
 #footer{
 
     display: flex;
+    justify-content: center;
     font-family: ralewaythin, sans-serif;
     margin: auto;
-    width: 1470px;
+    width: 1550px;
     background-color: #F2F2F2;
     
     
