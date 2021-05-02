@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'ralewayregular';
     src: url('police/raleway-regular-webfont.woff2') format('woff2'),
@@ -17,15 +16,12 @@
 
 }
 
-
-
 #page{
 
     width: 1440px;
     margin: auto;
     font-family: ralewayregular, sans-serif;
     
-
 }
 
 a{
@@ -34,6 +30,7 @@ a{
     color: black;
     
 }
+
 #intro{
 
     display: flex;
@@ -41,8 +38,8 @@ a{
     margin-left: 18px;
     margin-right: 18px;
 
-
 }
+
 #header{
 
     display:flex;
@@ -50,18 +47,14 @@ a{
     justify-content: space-around;
     font-weight: bold;
     
-    
-   
 }
 
 #logo{
 
-    
     margin-left: -3.3%;
     padding-top: 3%;
     width: 60%;
-     
-    
+      
 }
 
 
@@ -71,8 +64,6 @@ a{
     border-top: 2px #0065FC solid;
     padding-top: 4%;
     
-
-   
 }
 
 .txtblk{
@@ -82,13 +73,12 @@ a{
 
     
 }
+
 .txtblue2{
 
     color:#0065FC;
     padding-top: 4%;
     
-
-   
 }
 
 #titre{
@@ -98,12 +88,9 @@ a{
 
 #titre h1{
 
-
-margin-top: 4%;
-margin-bottom: 0%;
-font-family: ralewaybold, sans-serif;
-
-
+    margin-top: 4%;
+    margin-bottom: 0%;
+   
 
 }
 
@@ -112,7 +99,6 @@ font-family: ralewaybold, sans-serif;
     margin-bottom: 3%;
     margin-top: 3%;
    
-
 }
 
 #loupe{
@@ -129,8 +115,6 @@ font-family: ralewaybold, sans-serif;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
     
-    
-
 }
 
 #saisie{
@@ -141,7 +125,6 @@ font-family: ralewaybold, sans-serif;
     margin-left: -6px;
     font-weight: bold;
     font-size: 0.9em;
-
 
 }
 
@@ -161,7 +144,7 @@ font-family: ralewaybold, sans-serif;
 
   
     display: flex;
-    font-weight: bold;
+    font-family: ralewaybold, sans-serif;
    
 }
 
@@ -178,25 +161,29 @@ font-family: ralewaybold, sans-serif;
 
     background-color: #DEEBFF;
     color: #0065FC;
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 36px;
     text-align: center;
     padding-top: 14px;
     margin-right:20px ;
     border-radius: 100px 100px 100px 100px;
     margin-left: -20px;
+    position: relative;
+    bottom: 2px;
+
+
 }
 
 .filtre{
 
-    border-top: 1px #D9D9D9D9 solid;
-    border-right: 1px #D9D9D9D9 solid;
-    border-bottom: 1px #D9D9D9D9 solid;
-    border-radius: 0px 20px 20px 0px;
+    border-top: 2px #D9D9D9D9 solid;
+    border-right: 2px #D9D9D9D9 solid;
+    border-bottom: 2px #D9D9D9D9 solid;
+    border-radius: 0px 30px 30px 0px;
     margin-right: 50px;
     padding-right: 20px;
     width: auto;
-    height: 44px;
+    height: 45px;
     
 }
 
@@ -207,7 +194,6 @@ font-family: ralewaybold, sans-serif;
 }
 
 #information{
-    
     
     margin-bottom: 3%;
     margin-top: 3%;
@@ -239,15 +225,12 @@ font-family: ralewaybold, sans-serif;
 #hebergement{
 
     background-color: #F2F2F2;
-    width: 980px; <!-- debut test-->
+    width: 980px; 
     margin-right: 25px;
     margin-right: 2%;
     border-radius: 20px 20px 20px 20px;
    
-
 }
-
-
 
 #hebergement h2, .plus{
 
@@ -256,15 +239,12 @@ font-family: ralewaybold, sans-serif;
 
 }
 
-
 #marseille{
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
 
 .carte_hebergement{
 
@@ -277,43 +257,6 @@ font-family: ralewaybold, sans-serif;
 
 }
 
-
-
-.img{
-
-    width: 250px;
-    height: 115px;
-    
-}
-   
-.desc{
-    
-    width: 250px;
-    height: 120px;
-    line-height: 1.6em
-    
-    
-}
-
-.desc2 span{
-
-    line-height: 3em;
-}
-
-
-   
-span .fa-star{
-
-    color:#D9D9D9D9;
-}
-
-
-.fa-star{
-
-    
-    color:#0065FC;
-    margin-top: 5px;
-}
 .img{
 
     width: 250px;
@@ -321,13 +264,26 @@ span .fa-star{
     border-radius: 20px 20px 0px 0px;
     
 }
-   
+ 
 .desc{
     
     width: 250px;
     height: 120px;
-    
+    line-height: 1.6em
+     
 }
+
+span .fa-star{
+
+    color:#D9D9D9D9;
+}
+
+.fa-star{
+ 
+    color:#0065FC;
+    margin-top: 5px;
+}
+
 #pop{
 
     display:flex;
@@ -337,6 +293,11 @@ span .fa-star{
     width: 435px;
 }
 
+#pop h2{
+
+    margin-left: 35px;
+
+}
 
 #populaires{
 
@@ -346,11 +307,6 @@ span .fa-star{
    
 }
 
-#pop h2{
-
-    margin-left: 35px;
-
-}
 
 .fa-chart-line{
 
@@ -366,7 +322,6 @@ span .fa-star{
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFF;
     
-
 }
 
 .img2{
@@ -379,14 +334,17 @@ span .fa-star{
     float: left;
     border-radius: 20px 0px 0px 20px;
     
-
 }
-
 
 .carte_populaire h3{
 
     font-size: 1.1em;
     margin-bottom: 0.1em;
+}
+  
+.desc2 span{
+
+    line-height: 3em;
 }
 
 #activites{
@@ -400,13 +358,10 @@ span .fa-star{
     margin-left: 25px;
     margin-top: 50px;
     
- 
 }
-
 
 #act{
 
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -415,12 +370,10 @@ span .fa-star{
     height: 500px;
     width: 100%;
    
-    
 }
 
 .vignette{
 
-    
     width: 330px;
     border-radius: 20px 20px 20px 20px;
     font-weight: bold;font-family: ralewaybold, sans-serif;
@@ -447,11 +400,10 @@ span .fa-star{
 
     display: flex;
     justify-content: center;
-    font-family: ralewaythin, sans-serif;
+    font-family: ralewayregular, sans-serif;
     margin: auto;
     width: 1550px;
     background-color: #F2F2F2;
-    
     
 }
 
