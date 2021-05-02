@@ -25,8 +25,7 @@
     margin: auto;
     font-family: ralewayregular, sans-serif;
     
-    
-    
+
 }
 
 a{
@@ -190,9 +189,9 @@ font-family: ralewaybold, sans-serif;
 
 .filtre{
 
-    border-top: 1px #F2F2F2 solid;
-    border-right: 1px #F2F2F2 solid;
-    border-bottom: 1px #F2F2F2 solid;
+    border-top: 1px #D9D9D9D9 solid;
+    border-right: 1px #D9D9D9D9 solid;
+    border-bottom: 1px #D9D9D9D9 solid;
     border-radius: 0px 20px 20px 0px;
     margin-right: 50px;
     padding-right: 20px;
@@ -240,7 +239,8 @@ font-family: ralewaybold, sans-serif;
 #hebergement{
 
     background-color: #F2F2F2;
-    width: 68%;
+    width: 980px; <!-- debut test-->
+    margin-right: 25px;
     margin-right: 2%;
     border-radius: 20px 20px 20px 20px;
    
@@ -334,7 +334,7 @@ span .fa-star{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 28%;
+    width: 435px;
 }
 
 
@@ -354,7 +354,7 @@ span .fa-star{
 
 .fa-chart-line{
 
-    padding-left: 25%;
+    padding-left: 22%;
 }
 
 .carte_populaire{
@@ -400,8 +400,7 @@ span .fa-star{
     margin-left: 25px;
     margin-top: 50px;
     
-    
-    
+ 
 }
 
 
