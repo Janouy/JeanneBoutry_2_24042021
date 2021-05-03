@@ -23,7 +23,7 @@ body{
 
 #reservia{
 
-    width: 50%;
+    width: 30%;
    
     
 }
@@ -136,16 +136,14 @@ body{
 .eco{
 
     width: 35%;
-    margin-right: 150px;
-    order: 3;
+    order: 4;
     
    
 }
 
 .fam{
 
-    width: 35%;
-    margin-left: -5px;
+    width: 30%;
     order:2;
 
 }
@@ -153,15 +151,15 @@ body{
 .rom{
 
     width: 35%;
-    order: 4;
-    margin-left: -4px;
+    order: 3;
     
 }
 
 .ani{
 
-    width: 545;
+    width: 45%;
     order: 1;
+
 
 }
 
