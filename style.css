@@ -86,10 +86,11 @@ a{
     width: 100%;
 }
 
-#titre h1{
+#titre h2{
 
     margin-top: 4%;
     margin-bottom: 0%;
+    font-family: ralewaybold, sans-serif;
    
 
 }
