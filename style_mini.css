@@ -1,0 +1,524 @@
+body{
+
+    
+}
+#page{
+
+   font-size: 4em;
+<<<<<<< HEAD
+ 
+=======
+   
+}
+
+#intro{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 18px;
+
+
+>>>>>>> parent of c7d4862... Corrections
+}
+
+#header{
+
+   margin : auto;
+   flex-wrap: wrap;
+  
+}
+
+#logo{
+
+    width: 70%;
+    margin-bottom: 6%;
+   
+}
+
+#reservia{
+
+    width: 40%;
+    
+}
+
+#menu{
+
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 20%;
+     
+}
+
+.txtblue{
+
+    border-bottom: 7px #0065FC solid;
+    border-top: none;
+    order: 3;
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    
+}
+
+.txtblk{
+
+    order: 4;
+    width: 50%;
+    padding-top: 3%;
+    border-bottom: 7px #F2F2F2 solid;
+    text-align: center;
+    
+}
+
+.txtblue2{
+
+    order: 2;
+    padding-top: 8%;
+    font-weight: bold;
+
+}
+
+#titre{
+
+<<<<<<< HEAD
+    margin-top: 60px;
+=======
+    margin-top: 10%;
+    width: 100%;
+    
+    
+   
+>>>>>>> parent of c7d4862... Corrections
+
+}
+
+#titre h1{
+
+<<<<<<< HEAD
+    font-size: 1.4em;
+=======
+
+>>>>>>> parent of c7d4862... Corrections
+    margin-top: 4%;
+    margin-bottom: 0%;
+<<<<<<< HEAD
+
+}
+
+#titre p{
+
+    margin-left: 70px;
+}
+=======
+    font-weight: bold;
+       
+    }
+>>>>>>> parent of c7d4862... Corrections
+
+#recherche{
+
+    margin-bottom: 3%;
+    margin-top: 10%;
+   
+<<<<<<< HEAD
+}
+
+=======
+    
+
+   
+}
+
+#bouton{
+
+    display: none;
+    
+    }
+
+>>>>>>> parent of c7d4862... Corrections
+.fa-map-marker-alt{
+
+    border: 2px #F2F2F2 solid;
+<<<<<<< HEAD
+    padding: 50px 50px 0px 60px;
+    width: 75px;
+=======
+    padding: 50px 0px 0px 60px;
+    width: 130px;
+>>>>>>> parent of c7d4862... Corrections
+    height: 120px;
+    border-radius: 60px 0px 0px 60px;
+    
+}
+
+#saisie{
+
+    width: 74%;
+    height: 164px;
+    border: 4px #F2F2F2 solid;
+  
+}
+
+#bouton{
+
+    display: none;
+
+}
+
+#loupe{
+
+    display: inline; 
+    height: 175px;
+    width: 180px;
+    border-radius: 60px 60px 60px 60px;
+    margin-left: -80px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+   
+}
+
+#filtres{
+
+    flex-wrap: wrap;
+    font-size: 0.8em;
+   
+}
+
+#filtres p{
+
+<<<<<<< HEAD
+    font-size: 1.2em;
+    margin-left: 80px;
+    padding-bottom: 70px;
+=======
+    margin-top: 14px;
+    margin-right: 4%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+>>>>>>> parent of c7d4862... Corrections
+    width: 100%;
+
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
+
+    width: 170px;
+    height: 110px;
+    padding-top: 40px;
+    position: relative;
+    bottom: 6px;
+   
+}
+
+.filtre{
+
+    border-top: 7px #F2F2F2 solid;
+    border-right: 7px #F2F2F2 solid;
+    border-bottom: 7px #F2F2F2 solid;
+    border-radius: 100px 100px 100px 100px;
+    margin-bottom: 50px;
+<<<<<<< HEAD
+    margin-left: 80px;
+    height: 140px;
+=======
+    height: 160px;
+    
+>>>>>>> parent of c7d4862... Corrections
+    
+}
+
+.eco{
+
+    width: 40%;
+    margin-right: 150px;
+   
+}
+
+.fam{
+
+    width: 29%;
+
+}
+
+.rom{
+
+    width: 50%;
+}
+
+.ani{
+
+    width: 50%
+}
+
+#information{
+
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-weight: bold;
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> parent of c7d4862... Corrections
+}
+
+.fa-info{
+
+    border: 7px #F2F2F2 solid;
+    width: 90px;
+    height: 80px;
+    padding-top: 20px;
+    margin-right:20px ;
+  
+}
+
+#contenu{
+
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+#corps{
+
+   flex-direction: column-reverse;
+   justify-content: space-around;
+  
+<<<<<<< HEAD
+=======
+    
+}
+
+
+#pop{
+
+    display:flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+   
+    
+}
+
+#pop h2{
+
+    font-family: ralewaybold, sans-serif;
+}
+
+
+
+.carte_populaire{
+
+    width: 90%;
+    height: 25%;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 70px 70px 70px 70px;
+    background-color: #FFFF;
+    
+
+}
+
+
+.img2{
+
+    width: 530px;
+    height: 400px;
+    padding-right: 5%;
+    float: left;
+    border-radius: 70px 0px 0px 70px;
+    
+
+}
+
+.desc2 span{
+
+    line-height: 1em;
+>>>>>>> parent of c7d4862... Corrections
+}
+
+#hebergement{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    width: 100%;
+    margin-right: 0;
+   
+}
+
+#hebergement h2, .plus{
+
+    font-weight: bold;
+    font-family: ralewaybold, sans-serif;
+    margin-left: 10px;
+
+}
+
+<<<<<<< HEAD
+.plus{
+
+    margin-top: 0;
+    margin-bottom: 200px;
+}
+
+=======
+>>>>>>> parent of c7d4862... Corrections
+#marseille{
+
+    flex-direction: column;
+    align-items: center;
+    margin-left: -25px;
+
+}
+
+.carte_hebergement{
+
+    width: 1290px;
+    height: auto;
+    margin-bottom: 200px;
+    border-radius: 70px 70px 70px 50px;
+    box-shadow: 0px 15px 12px #F2F2F2;
+
+}
+
+.img{
+
+    width: 100%;
+    height: 400px;
+    border-radius: 70px 70px 0px 0px;
+    
+}
+
+.desc{
+    
+    width: 100%;
+    height: 350px;
+    
+}
+
+#pop{
+
+    width: 100%;
+   
+}
+
+#pop h2{
+
+    font-family: ralewaybold, sans-serif;
+    margin-left: 50px;
+    
+}
+
+.carte_populaire{
+
+    width: 90%;
+    height: 25%;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 70px 70px 70px 70px;
+
+}
+
+.img2{
+
+    width: 530px;
+    height: 400px;
+    border-radius: 70px 0px 0px 70px;
+    
+}
+
+.desc2 span{
+
+    line-height: 1em;
+}
+
+#activites{
+
+    display: flex;
+    flex-direction: column;
+}
+
+<<<<<<< HEAD
+#activites h1{
+
+    margin-left: 50px;
+     
+}
+
+#act{
+
+    height: 80%;
+ 
+}
+
+=======
+>>>>>>> parent of c7d4862... Corrections
+.vignette{
+
+    width: 1290px;
+    height: 800px;
+    border-radius: 70px 70px 70px 70px;
+    box-shadow: 0px 18px 16px #F2F2F2;
+    margin-bottom: 15%;
+ 
+}
+
+.vieux_port, .calanques{
+
+    display: none;
+       
+}
+
+.img3{
+
+    width: 1296px;
+    height: 600px;
+    border-radius: 70px 70px 0px 0px;
+    
+}
+
+.img4{
+
+    display: inline;
+    border-radius: 70px 70px 0px 0px;
+    width: 1296px;
+    height: 600px;
+}
+
+.vignette p{
+
+    margin-top: 50px;
+    
+}
+
+#footer{
+
+    flex-direction: column;
+    font-family: ralewayregular, sans-serif;
+    font-size: 4em;
+    width: 1360px;
+    padding-left: 80px;
+
+}
+
+.bottom{
+
+    margin-right: 0%;
+    padding-left: 0%;
+}
+
+.bottom h5{
+
+    font-family: ralewaybold, sans-serif;
+
+}
+
+
+
+
