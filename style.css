@@ -18,7 +18,7 @@
 
 #page{
 
-    width: 1440px;
+    width: 90%;
     margin: auto;
     font-family: ralewayregular, sans-serif;
     
@@ -31,16 +31,15 @@ a{
     
 }
 
-#intro{
+#header{
 
     display: flex;
     flex-direction: column;
-    margin-left: 18px;
-    margin-right: 18px;
+   
 
 }
 
-#header{
+#navigation{
 
     display:flex;
     width: 100%;
@@ -218,25 +217,28 @@ a{
 #corps{
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
 
 #hebergement{
 
+   
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 1%;
     background-color: #F2F2F2;
-    width: 980px; 
-    margin-right: 25px;
-    margin-right: 2%;
     border-radius: 20px 20px 20px 20px;
    
 }
 
 #hebergement h2, .plus{
 
-    margin-left: 35px;
+    margin-left: 4%;
     font-weight: bold;
+    
 
 }
 
@@ -245,14 +247,18 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: space-around;
+    
 }
+
+
 
 .carte_hebergement{
 
-    width: 250px;
-    height: 190px;
-    margin-bottom: 20px;
-    padding: 4px 4px 4px 4px;
+    height: 40%;
+    min-width: 25%;
+    margin-bottom: 3%;
+    padding: 0.5%;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFF;
 
@@ -268,8 +274,7 @@ a{
  
 .desc{
     
-    width: 250px;
-    height: 120px;
+    
     line-height: 1.6em
      
 }
@@ -282,7 +287,7 @@ span .fa-star{
 .fa-star{
  
     color:#0065FC;
-    margin-top: 5px;
+    
 }
 
 #pop{
@@ -291,12 +296,14 @@ span .fa-star{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 435px;
+    width: 27%;
 }
+
 
 #pop h2{
 
-    margin-left: 35px;
+    margin-left: 4%;
+    padding-top: 2.5%;
 
 }
 
@@ -305,6 +312,7 @@ span .fa-star{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
    
 }
 
@@ -316,8 +324,8 @@ span .fa-star{
 
 .carte_populaire{
 
-    width: 300px;
-    height: 140px;
+    width: 80%;
+    height: 50%;
     margin-bottom: 20px;
     padding: 4px 4px 4px 4px;
     border-radius: 20px 20px 20px 20px;
@@ -365,19 +373,19 @@ span .fa-star{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    align-content: space-around;
     flex-wrap: wrap;
     height: 500px;
-    width: 100%;
+    
    
 }
 
 .vignette{
 
-    width: 330px;
+
     border-radius: 20px 20px 20px 20px;
     font-weight: bold;font-family: ralewaybold, sans-serif;
+    width: 24%;
     box-shadow: 0px 8px 6px #F2F2F2;
 }
 
@@ -403,9 +411,18 @@ span .fa-star{
     justify-content: center;
     font-family: ralewayregular, sans-serif;
     margin: auto;
-    width: 1550px;
     background-color: #F2F2F2;
     
+}
+
+#bas_de-page{
+
+    display: flex;
+    justify-content: center;
+    font-family: ralewayregular, sans-serif;
+    background-color: #F2F2F2;
+    width: 100%;
+
 }
 
 .bottom{

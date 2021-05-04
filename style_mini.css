@@ -10,7 +10,7 @@ body{
  
 }
 
-#header{
+#navigation{
 
    margin : auto;
    flex-wrap: wrap;
@@ -216,13 +216,6 @@ body{
   
 }
 
-#contenu{
-
-    display:flex;
-    flex-direction: column;
-    
-    
-}
 
 #corps{
 
