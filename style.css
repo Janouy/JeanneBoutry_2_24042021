@@ -24,6 +24,8 @@
     
 }
 
+/* début bloc header */
+
 a{
 
     text-decoration: none;
@@ -213,6 +215,9 @@ a{
   
 }
 
+/* fin du bloc header */
+
+/* début bloc corps */
 
 #corps{
 
@@ -227,7 +232,7 @@ a{
    
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 68%;
     padding-top: 1%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
@@ -247,16 +252,17 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: space-around;
-    
+
 }
 
 
 
 .carte_hebergement{
 
-    height: 40%;
-    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 43%;
+    width: 25%;
     margin-bottom: 3%;
     padding: 0.5%;
     border-radius: 20px 20px 20px 20px;
@@ -264,19 +270,60 @@ a{
 
 }
 
-.img{
-
-    width: 250px;
-    height: 115px;
+.pict{
+    width: 100%;
+    height: 9em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
     border-radius: 20px 20px 0px 0px;
     
 }
+
+
+
+#cannebiere{
+
+    background-image: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+#port{
+
+    background-image: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+}
+
+#mouettes{
+
+    background-image: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+
+#mer{
+
+    background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: 100% 120%;
+  
+}
+
+#panier{
+
+    background-image: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+
+#amina{
+
+    background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: 100% 145%;
+}
+
  
 .desc{
     
     
-    line-height: 1.6em
-     
+    line-height: 1.8em;
+    padding-left: 2%;
+    padding-top: 2%;
+    height: 50%;
+    
 }
 
 span .fa-star{
@@ -294,9 +341,9 @@ span .fa-star{
 
     display:flex;
     flex-direction: column;
+    width: 28%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 27%;
 }
 
 
@@ -311,39 +358,31 @@ span .fa-star{
 
     display: flex;
     flex-direction: column;
+    height: 100%;
     align-items: center;
-    margin-top: 5%;
+    justify-content: space-around;
+ 
    
 }
 
 
 .fa-chart-line{
 
-    padding-left: 22%;
+    position: absolute;
+    right: 8%;
 }
 
 .carte_populaire{
 
-    width: 80%;
-    height: 50%;
-    margin-bottom: 20px;
+    display: flex;
+    width: 85%;
+    height: 22%;
     padding: 4px 4px 4px 4px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFF;
     
 }
 
-.img2{
-
-    width: 130px;
-    height: 134px;
-    padding-right: 5%;
-    padding-top: 2px;
-    padding-left: 2px;
-    float: left;
-    border-radius: 20px 0px 0px 20px;
-    
-}
 
 .carte_populaire h3{
 
@@ -351,10 +390,50 @@ span .fa-star{
     margin-bottom: 0.1em;
 }
   
+.img2{
+
+    width: 8em;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    border-radius: 20px 00px 0px 20px;
+    float: left;
+    
+}
+
+#soleil{
+
+    background-image: url("images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: 120% 100%;
+}
+
+#eau{
+
+    background-image: url("images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+
+#bleu{
+
+    background-image: url("images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+
+}
+
+.desc2{
+
+    width: 25em;
+    padding-left: 9em;
+    padding-top: 0.5em;
+    
+}
+
 .desc2 span{
 
     line-height: 3em;
 }
+
+/* fin bloc corps */
+
+/* début bloc activités */
 
 #activites{
 
@@ -372,39 +451,164 @@ span .fa-star{
 #act{
 
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
     height: 500px;
-    
-   
+
 }
 
 .vignette{
 
-
     border-radius: 20px 20px 20px 20px;
-    font-weight: bold;font-family: ralewaybold, sans-serif;
-    width: 24%;
     box-shadow: 0px 8px 6px #F2F2F2;
-}
+    width: 22%;
 
-.img3{
-
-    border-radius: 20px 20px 0px 0px;
     
 }
 
-.img4{
+.vignette2{
 
-    display: none;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 22%;
+     
+}
+
+.vignette3{
+
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 53%;
+}
+
+.vignette4{
+
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 40%;
+
+}
+
+
+.vignette5{
+
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 46%;
+
 }
 
 .vignette p{
 
     padding-left: 5%;
+    padding-top: 2%;
+    font-weight: bold;font-family: ralewaybold, sans-serif;
 }
 
+.vignette3 p{
+
+    padding-left: 5%;
+    padding-top: 1%;
+    font-weight: bold;font-family: ralewaybold, sans-serif;
+
+}
+
+.vignette4 p{
+
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-weight: bold;font-family: ralewaybold, sans-serif;
+
+}
+.vignette5 p{
+
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-weight: bold;font-family: ralewaybold, sans-serif;
+}
+
+
+.pict3{
+
+    width: 100%;
+    height: 87%;
+    border-radius: 20px 20px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#vieux_port{
+
+    background-image: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: 200% 120%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+
+#calanques{
+
+    background-image: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: 200% 120%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+
+
+.pict4{
+
+    width: 100%;
+    height: 78%;
+    border-radius: 20px 20px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#pomegues{
+
+    background-image: url("images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: 100% 240%;
+    background-position-x: 50%;
+    background-position-y: 40%;
+
+}
+
+#frioul{
+
+    background-image: url("images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: 100% 140%;
+    background-position-x: 50%;
+    
+}
+
+
+
+#garde{
+
+    background-image: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: 100% 140%;
+    background-position-x: 50%;
+}
+
+#longchamp{
+
+    background-image: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: 110% 110%;
+    background-position-x: 30%;
+    background-position-y: 10%;
+}
+
+
+
+/* début bloc activités */
+
+/* début footer */
 #footer{
 
     display: flex;
@@ -442,4 +646,5 @@ span .fa-star{
     line-height: 2em;
 }
 
+/* fin du footer */
 
