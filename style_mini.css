@@ -1,47 +1,37 @@
 body{
 
-    margin: auto;
-    
+    width: 100%;
+    margin:0;
 }
+
 
 #page{
 
-   font-size: 4em;
- 
+    width: 100%;
+    margin: 0;
+}
+
+/* début du bloc header */
+
+#header{
+
+    width: 100%;
+    margin: 0;
+   
 }
 
 #navigation{
 
-   margin : auto;
-   flex-wrap: wrap;
-  
-}
-
-#logo{
-
-    width: 70%;
-    margin-bottom: 6%;
-    margin-left: 20px;
-   
-}
-
-#reservia{
-
-    width: 40%;
-    
-}
-
-#menu{
-
+    width: 100%;
+    margin : auto;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
-    width: 20%;
-     
-}
+   
+ }
 
-.txtblue{
 
-    border-bottom: 7px #0065FC solid;
+ .txtblue{
+
+    border-bottom: 3px #0065FC solid;
     border-top: none;
     order: 3;
     width: 50%;
@@ -56,7 +46,7 @@ body{
     order: 4;
     width: 50%;
     padding-top: 3%;
-    border-bottom: 7px #F2F2F2 solid;
+    border-bottom: 3px #F2F2F2 solid;
     text-align: center;
     
 }
@@ -71,330 +61,373 @@ body{
 
 #titre{
 
-    margin-top: 60px;
-
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 #titre h2{
 
-    font-size: 1.4em;
-    margin-top: 4%;
-    margin-left: 70px;
-    margin-bottom: 0%;
-
+    font-family: ralewaybold, sans-serif;
+    padding-left: 5%;
+   
 }
 
 #titre p{
 
-    margin-left: 70px;
+    padding-left: 5%;
 }
 
 #recherche{
 
-    margin-bottom: 140px;
-    margin-top: 140px;
+    margin-bottom: 5%;
     text-align: center;
    
 }
 
+#loupe{
+
+    display: none;
+}
+
 .fa-map-marker-alt{
 
-    border: 2px #F2F2F2 solid;
-    padding: 50px 50px 0px 60px;
-    width: 75px;
-    height: 120px;
-    border-radius: 60px 0px 0px 60px;
+    padding: 11.5px 4px 0px 8px;
+    width: 30px;
+   
     
 }
 
 #saisie{
 
-    width: 900px;
-    margin-left: -18px;
-    height: 164px;
-    border: 4px #F2F2F2 solid;
-  
+    width: 65%;
+    height: 40px;
+    border: 2px #F2F2F2 solid;
+    
 }
 
 #bouton{
 
     display: none;
-
 }
 
 #loupe{
 
+    display: none;
+}
+
+#mini_loupe{
+
     display: inline; 
-    height: 175px;
-    width: 180px;
-    border-radius: 60px 60px 60px 60px;
-    margin-left: -80px;
+    height: 45px;
+    width: 45px;
+    border-radius: 15px 15px 15px 15px;
     color: white;
     background-color: #0065FC;
     border: none;
-   
+    position: absolute;
+    top: 34%;
+    left: 78%;
 }
+
 
 #filtres{
 
     flex-wrap: wrap;
-    font-size: 0.8em;
-   
+    font-size: 0.9em;
+    margin-bottom: 2%;
+    width: 95%;
+    margin: auto;
+ 
 }
 
 #filtres p{
 
-    font-size: 1.2em;
-    margin-left: 80px;
-    padding-bottom: 70px;
-    width: 100%;
+    margin-left: 2%;
+    padding-bottom: 5%;
+    width: 80%;
 
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
 
-    width: 170px;
-    height: 110px;
-    padding-top: 40px;
-    position: relative;
-    bottom: 6px;
-   
+    width: 48px;
+    height: 31px;
+    margin-right: 8px ;
+    bottom: 3px;
 }
 
 .filtre{
 
-    border-top: 7px #D9D9D9 solid;
-    border-right: 7px #D9D9D9 solid;
-    border-bottom: 7px #D9D9D9 solid;
-    border-radius: 100px 100px 100px 100px;
-    margin-bottom: 50px;
-    margin-left: 80px;
-    height: 140px;
+    padding-left: 1%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    height: 40px;
+    margin-right: 10px;
+    padding-right: 10px;
     
 }
 
 .eco{
 
-    width: 45%;
-    margin-right: 150px;
-   
+    width: 38%;
+    order: 1;
+    
 }
 
 .fam{
 
-    width: 30%;
-    margin-left: -5px;
+    width: 28%;
+    order:2;
 
 }
 
 .rom{
 
-    width: 40%;
+    width: 37%;
+    order: 3;
+    
 }
 
 .ani{
 
-    width: 50%
-}
+    width: 50%;
+    order: 4;
 
-#information{
-
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 30px;
-    font-weight: bold;
-    
 }
 
 .fa-info{
 
-    border: 7px #F2F2F2 solid;
-    width: 90px;
-    height: 80px;
-    padding-top: 20px;
-    margin-right:20px ;
+    width: 28px;
+    height: 22px;
+    margin-left: 2%;
+    float: left;
   
 }
+
+/* fin du bloc header */
+
+
+/* début du bloc corps */
 
 
 #corps{
 
-   flex-direction: column-reverse;
-   justify-content: space-around;
+    flex-direction: column-reverse;
+    width: 100%;
   
 }
 
+
 #hebergement{
 
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFF;
     width: 100%;
-    margin-right: 0;
+    height: 80%;
+    background-color: #FFFF;
+    border-radius: 00px 00px 00px 00px;
    
 }
 
-#hebergement h2, .plus{
-
-    font-weight: bold;
-    font-family: ralewaybold, sans-serif;
-    margin-left: 50px;
-
-}
-
-.plus{
-
-    margin-top: 0;
-    margin-bottom: 200px;
-}
+    /* début bloc Marseille*/
 
 #marseille{
 
     flex-direction: column;
     align-items: center;
-    margin-left: -25px;
 
 }
 
 .carte_hebergement{
 
-    width: 1290px;
-    height: auto;
-    margin-bottom: 200px;
-    border-radius: 70px 70px 70px 50px;
-    box-shadow: 0px 15px 12px #F2F2F2;
+    width: 85%;
+    margin-bottom: 3%;
+    box-shadow: 0px 8px 6px #f2f2f2;
 
 }
 
-.img{
+#mer{
 
-    width: 100%;
-    height: 400px;
-    border-radius: 70px 70px 0px 0px;
-    
+    background-size: 110% 150%;
+    background-position-x: 30%;
+    background-position-y: 30%;
+  
+}
+
+
+#amina{
+
+    background-size: 120% 220%;
+    background-position-x: 30%;
+    background-position-y: 40%;
 }
 
 .desc{
     
-    width: 100%;
-    height: 350px;
+    line-height: 1.8em;
+    padding-left: 2%;
+    padding-top: 2%;
+    height: 50%;
     
 }
+
+/* fin bloc Marseille*/
+
+
+/* début bloc pop*/
 
 #pop{
 
     width: 100%;
-   
+    border-radius: 0px 0px 0px 0px;
 }
 
-#pop h2{
+.fa-chart-line{
 
-    font-family: ralewaybold, sans-serif;
-    margin-left: 50px;
-    
+    right: 10%;
 }
+
 
 .carte_populaire{
 
-    width: 90%;
-    height: 25%;
-    margin-bottom: 50px;
-    padding: 20px 20px 20px 20px;
-    border-radius: 70px 70px 70px 70px;
-
-}
-
-.img2{
-
-    width: 530px;
-    height: 400px;
-    border-radius: 70px 0px 0px 70px;
+    margin-bottom: 4%;
     
 }
+ 
+#soleil{
 
-.desc2 span{
-
-    line-height: 1em;
+    background-size: 160% 120%;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
+
+/* fin du bloc pop*/
+
+/* fin du bloc corps */
+
+/*début du bloc activités*/
+
 
 #activites{
 
     display: flex;
     flex-direction: column;
-}
-
-#activites h1{
-
-    margin-left: 50px;
-     
+    width: 100%;
+    
 }
 
 #act{
 
-    height: 80%;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+    
+
 }
 
 .vignette{
 
-    width: 1290px;
-    height: 800px;
-    border-radius: 70px 70px 70px 70px;
-    box-shadow: 0px 18px 16px #F2F2F2;
-    margin-bottom: 15%;
- 
+    width: 90%;
+    height: 15%;
+  
 }
 
-.vieux_port, .calanques{
+.vignette2{
 
-    display: none;
-       
+     width: 90%;
+     height: 30%;
+  
 }
 
-.img3{
+.vignette3{
 
-    width: 1296px;
-    height: 600px;
-    border-radius: 70px 70px 0px 0px;
+    height: 50%;
+  
+}
+
+.vignette5{
+
+    height: 45%;
+
+}
+
+.vignette p .vignette3 p{
+
+    padding-top: 1%;
+   
+}
+
+.vignette4 p .vignette5 p{
+
+    padding-bottom: 1%;
+
+}
+
+.pict3{
+
+    height: 75%;
+  
+}
+
+#vieux_port{
+
+    background-size: 180% 180%;
+    background-position-x: 50%;
+    background-position-y: 20%;
+}
+
+
+#calanques{
+
+    background-size: 180% 160%;
+    background-position-x: 50%;
+    background-position-y: 15%;
+}
+
+#pomegues{
+
+    background-size: 100% 270%;
+    background-position-x: 50%;
+    background-position-y: 35%;
+
+}
+
+#frioul{
+
+    background-size: 100% 140%;
+    background-position-x: 50%;
     
 }
 
-.img4{
+#garde{
 
-    display: inline;
-    border-radius: 70px 70px 0px 0px;
-    width: 1296px;
-    height: 600px;
+    background-size: 100% 140%;
+    background-position-x: 50%;
 }
 
-.vignette p{
+#longchamp{
 
-    margin-top: 50px;
-    
+    background-size: 120% 160%;
+    background-position-x: 40%;
+    background-position-y: 10%;
 }
 
+/*fin du bloc activités*/
+
+/* début footer */
 #footer{
 
+    margin: auto;
+    width:100%;
+}
+
+#bas_de-page{
+
     flex-direction: column;
-    font-family: ralewayregular, sans-serif;
-    font-size: 4em;
-    width: 1360px;
-    padding-left: 80px;
-
-}
-
-.bottom{
-
-    margin-right: 0%;
-    padding-left: 0%;
-}
-
-.bottom h5{
-
-    font-family: ralewaybold, sans-serif;
+    margin-left: 6%;
 
 }
 
 
-
+/* fin du footer */
 

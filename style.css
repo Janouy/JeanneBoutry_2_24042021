@@ -19,7 +19,8 @@
 
 #page{
 
-    width: 100%;
+    width: 90%;
+    margin: auto;
     font-family: ralewayregular, sans-serif;
     
 }
@@ -40,7 +41,6 @@ a{
     width: 90%;
     margin: auto;
    
-
 }
 
 #navigation{
@@ -94,7 +94,6 @@ a{
     margin-bottom: 0%;
     font-family: ralewaybold, sans-serif;
    
-
 }
 
 #recherche{
@@ -104,7 +103,7 @@ a{
    
 }
 
-#loupe{
+#loupe, #mini_loupe{
 
     display: none;
 }
@@ -173,8 +172,6 @@ a{
     margin-left: -20px;
     position: relative;
     bottom: 2px;
-
-
 }
 
 .filtre{
@@ -206,7 +203,7 @@ a{
 .fa-info{
 
     color: #0065FC;
-    border: 1px #F2F2F2 solid;
+    border: 1px #D9D9D9D9 solid;
     width: 30px;
     height: 25px;
     text-align: center;
@@ -232,7 +229,6 @@ a{
 
 #hebergement{
 
-   
     display: flex;
     flex-direction: column;
     width: 68%;
@@ -247,9 +243,9 @@ a{
 
     margin-left: 4%;
     font-weight: bold;
-    
-
 }
+
+/* début du  bloc Marseille*/
 
 #marseille{
 
@@ -258,8 +254,6 @@ a{
     justify-content: space-around;
 
 }
-
-
 
 .carte_hebergement{
 
@@ -283,8 +277,6 @@ a{
     border-radius: 20px 20px 0px 0px;
     
 }
-
-
 
 #cannebiere{
 
@@ -322,11 +314,9 @@ a{
     background-position-x: 30%;
     background-position-y: 40%;
 }
-
  
 .desc{
-    
-    
+     
     line-height: 1.8em;
     padding-left: 2%;
     padding-top: 2%;
@@ -345,6 +335,10 @@ span .fa-star{
     
 }
 
+/* fin bloc Marseille*/
+
+/* début bloc pop*/
+
 #pop{
 
     display:flex;
@@ -353,7 +347,6 @@ span .fa-star{
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
 }
-
 
 #pop h2{
 
@@ -370,14 +363,13 @@ span .fa-star{
     align-items: center;
     justify-content: space-around;
  
-   
 }
 
 
 .fa-chart-line{
 
     position: absolute;
-    right: 8%;
+    right: 12%;
 }
 
 .carte_populaire{
@@ -403,7 +395,7 @@ span .fa-star{
     width: 8em;
     height: 100%;
     background-repeat: no-repeat;
-    border-radius: 20px 00px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
     background-size: 120% 100%;
     float: left;
     
@@ -442,9 +434,9 @@ span .fa-star{
     line-height: 3em;
 }
 
-/* fin bloc corps */
+/* fin du bloc corps */
 
-/* début bloc activités */
+/* début du bloc activités */
 
 #activites{
 
@@ -503,7 +495,6 @@ span .fa-star{
     height: 40%;
 
 }
-
 
 .vignette5{
 
@@ -600,8 +591,6 @@ span .fa-star{
     
 }
 
-
-
 #garde{
 
     background-image: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -619,7 +608,7 @@ span .fa-star{
 
 
 
-/* début bloc activités */
+/* fin du  bloc activités */
 
 /* début footer */
 #footer{
