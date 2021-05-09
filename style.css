@@ -16,7 +16,6 @@
 
 }
 
-
 #page{
 
     width: 90%;
@@ -223,7 +222,7 @@ a{
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    
+   
 }
 
 
@@ -339,12 +338,12 @@ span .fa-star{
 /* début bloc pop*/
 
 #pop{
-
     display:flex;
     flex-direction: column;
     width: 28%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+   
 }
 
 #pop h2{
@@ -361,14 +360,14 @@ span .fa-star{
     height: 100%;
     align-items: center;
     justify-content: space-around;
+   
  
 }
 
 
 .fa-chart-line{
 
-    position: absolute;
-    right: 12%;
+   padding-left: 35%;
 }
 
 .carte_populaire{
@@ -378,8 +377,8 @@ span .fa-star{
     height: 22%;
     padding: 4px 4px 4px 4px;
     border-radius: 20px 20px 20px 20px;
-    background-color: #FFFF;
-    
+    background-color: #FFFF; 
+   
 }
 
 

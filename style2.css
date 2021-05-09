@@ -1,0 +1,47 @@
+#page{
+
+    width: 100%;
+}
+
+/* début bloc header */
+
+#filtres{
+    flex-wrap: wrap;
+}
+
+.filtre{
+    margin-top: 2%; 
+}
+
+/* fin du bloc header */
+
+/* début bloc corps */
+
+#hebergement{
+    width: 73%;
+}
+
+/* début du  bloc Marseille*/
+
+.carte_hebergement{
+    height: 47%;
+    width: 25%;
+}
+
+/* fin bloc Marseille*/
+
+/* début bloc pop*/
+
+#pop{
+    width: 35%;
+}
+
+.fa-chart-line{
+   padding-left: 1.5em;
+}
+
+.carte_populaire{
+    width: 85%;
+    height: 40%;
+}
+
