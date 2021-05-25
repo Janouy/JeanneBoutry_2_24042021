@@ -362,7 +362,7 @@ span .fa-star{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    min-height: 88%;
+    height: 88%;
 }
 
 .carte_populaire{
