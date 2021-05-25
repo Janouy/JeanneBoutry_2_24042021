@@ -18,8 +18,9 @@
 
 #page{
 
-    width: 90%;
+    width: 100%;
     margin: auto;
+    font-size: 100%;
     font-family: ralewayregular, sans-serif;
     
 }
@@ -143,10 +144,10 @@ a{
 
 #filtres{
 
-  
     display: flex;
+    flex-wrap: wrap;
     font-family: ralewaybold, sans-serif;
-   
+    
 }
 
 #filtres p{
@@ -171,7 +172,10 @@ a{
     margin-left: -20px;
     position: relative;
     bottom: 2px;
+   
 }
+
+
 
 .filtre{
 
@@ -180,11 +184,13 @@ a{
     border-bottom: 2px #D9D9D9D9 solid;
     border-radius: 0px 30px 30px 0px;
     margin-right: 50px;
+    margin-top: 5px;
     padding-right: 20px;
     width: auto;
     height: 45px;
-    
 }
+
+
 
 .filtre:hover{
 
@@ -222,16 +228,15 @@ a{
     justify-content: space-between;
     width: 90%;
     margin: auto;
-   
+    font-size: 1em;
 }
-
 
 #hebergement{
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 68%;
-    padding-top: 1%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
    
@@ -257,8 +262,7 @@ a{
 
     display: flex;
     flex-direction: column;
-    height: 43%;
-    width: 25%;
+    min-width: 28%;
     margin-bottom: 3%;
     padding: 0.5%;
     border-radius: 20px 20px 20px 20px;
@@ -271,8 +275,10 @@ a{
     height: 9em;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: top;
+    background-position-x: 55%;
+    background-position-y:50%;
     border-radius: 20px 20px 0px 0px;
+    background-size: cover;
     
 }
 
@@ -294,9 +300,7 @@ a{
 #mer{
 
     background-image: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-size: 110% 150%;
-    background-position-x: 30%;
-    background-position-y: 30%;
+   
   
 }
 
@@ -308,17 +312,14 @@ a{
 #amina{
 
     background-image: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-size: 120% 220%;
-    background-position-x: 30%;
-    background-position-y: 40%;
+    background-position-y: 50%;
+    
 }
  
 .desc{
      
     line-height: 1.8em;
-    padding-left: 2%;
-    padding-top: 2%;
-    height: 50%;
+    padding: auto;
     
 }
 
@@ -340,71 +341,63 @@ span .fa-star{
 #pop{
     display:flex;
     flex-direction: column;
-    width: 28%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
    
 }
 
-#pop h2{
-
+.titre_pop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 4%;
-    padding-top: 2.5%;
-
+    margin-right: 4%;
 }
 
+    
 #populaires{
 
     display: flex;
     flex-direction: column;
-    height: 100%;
-    align-items: center;
     justify-content: space-around;
-   
- 
-}
-
-
-.fa-chart-line{
-
-   padding-left: 35%;
+    align-items: center;
+    min-height: 88%;
 }
 
 .carte_populaire{
 
     display: flex;
-    width: 85%;
-    height: 22%;
+    height: 28%;
+    width: 80%;
     padding: 4px 4px 4px 4px;
     border-radius: 20px 20px 20px 20px;
     background-color: #FFFF; 
-   
 }
 
 
-.carte_populaire h3{
-
-    font-size: 1.1em;
-    margin-bottom: 0.1em;
-}
-  
 .img2{
 
-    width: 8em;
-    height: 100%;
+    width: 50%;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px 0px 0px 20px;
-    background-size: 120% 100%;
-    float: left;
-    
+    background-position-x: 55%;
+    background-position-y:50%;
+  
+}
+
+.desc2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
 }
 
 #soleil{
 
     background-image: url("images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    background-size: 160% 120%;
-    background-position-x: 50%;
-    background-position-y: 50%;
+   
 }
 
 #eau{
@@ -416,21 +409,10 @@ span .fa-star{
 #bleu{
 
     background-image: url("images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    
-
-}
-
-.desc2{
-
-    padding-left: 9em;
-    padding-top: 0.5em;
+   
     
 }
 
-.desc2 span{
-
-    line-height: 3em;
-}
 
 /* fin du bloc corps */
 
@@ -540,13 +522,14 @@ span .fa-star{
     border-radius: 20px 20px 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     
 }
 
 #vieux_port{
 
     background-image: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-size: 200% 120%;
     background-position-x: 50%;
     background-position-y: 50%;
 }
@@ -555,7 +538,6 @@ span .fa-star{
 #calanques{
 
     background-image: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-size: 200% 120%;
     background-position-x: 50%;
     background-position-y: 50%;
 }
@@ -569,39 +551,35 @@ span .fa-star{
     border-radius: 20px 20px 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     
 }
 
 #pomegues{
 
     background-image: url("images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: 100% 240%;
-    background-position-x: 50%;
-    background-position-y: 40%;
+  
 
 }
 
 #frioul{
 
     background-image: url("images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: 100% 140%;
-    background-position-x: 50%;
+  
     
 }
 
 #garde{
 
     background-image: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: 100% 140%;
-    background-position-x: 50%;
+   
 }
 
 #longchamp{
 
     background-image: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    background-size: 110% 110%;
-    background-position-x: 30%;
-    background-position-y: 10%;
+ 
 }
 
 

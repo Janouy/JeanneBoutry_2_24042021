@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media=" screen and (min-width: 1024px) and (max-width: 1800px)" href="style2.css" />
-    <link rel="stylesheet" media=" screen and (min-width: 768px) and (max-width: 1024px)" href="style_medium.css" />
+    <link rel="stylesheet" media=" screen and (min-width: 768px) and (max-width: 900px)" href="style_medium.css" />
     <link rel="stylesheet" media=" screen and (max-width: 767px)" href="style_mini.css" />
     <meta name="viewport" content="width=device-width">
     <script src=" https://kit.fontawesome.com/79802d727d.js" crossorigin="anonymous">
@@ -73,7 +72,9 @@
         <main id="corps">
 
             <aside id="hebergement">
-                <h2> Hébergements à Marseille</h2>
+                <div>
+                    <h2> Hébergements à Marseille</h2>
+                </div>
 
                 <div id="marseille">
 
@@ -145,61 +146,72 @@
                         </a>
                     </div>
                 </div>
-
-
-                <p class="plus"> Afficher plus </p>
+                <div>
+                    <p class="plus"> Afficher plus </p>
+                </div>
             </aside>
+
+
 
             <aside id="pop">
 
-                <h2> Les plus populaires <i class="fas fa-chart-line"></i> </h2>
+                <div class="titre_pop">
+                    <div class="titre_pop-1">
+                        <h2>Les plus populaires </h2>
+                    </div>
+                    <div> <i class="fas fa-chart-line fa-2x"></i></div>
+                </div>
 
-                <aside id="populaires">
+                <div id="populaires">
 
                     <div class="carte_populaire">
-                        <a href="#">
-                            <div class="img2" id="soleil"></div>
-                            <div class="desc2">
-                                <b> Hôtel Le soleil du <br /> matin </b> <br />
-                                <span>Nuit à partir de 128<b>€</b></span> <br />
 
-                                <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                </div>
+                        <div class="img2" id="soleil"></div>
+
+                        <div class="desc2">
+                            <div> <b> Hôtel Le soleil du <br /> matin </b> </div>
+                            <div>Nuit à partir de 128<b>€</b></div>
+
+                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                             </div>
-                        </a>
+                        </div>
+
                     </div>
 
                     <div class="carte_populaire">
-                        <a href="#">
-                            <div class="img2" id="eau"></div>
-                            <div class="desc2">
-                                <b> Au coeurs de l'eau <br /> Chambres d'hôtes </b> <br />
-                                <span>Nuit à partir de 71<b>€</b></span> <br />
 
-                                <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><span><i
-                                            class="fas fa-star"></i></span>
-                                </div>
+                        <div class="img2" id="eau"></div>
+                        <div class="desc2">
+
+                            <div> <b> Au coeurs de l'eau <br /> Chambres d'hôtes </b>
                             </div>
-                        </a>
+                            <div>Nuit à partir de 71<b>€</b></div>
+
+                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><span><i
+                                        class="fas fa-star"></i></span>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="carte_populaire">
-                        <a href="#">
-                            <div class="img2" id="bleu"></div>
-                            <div class="desc2">
-                                <b> Hôtel Tout bleu et <br /> Blanc </b> <br />
-                                <span>Nuit à partir de 68<b>€</b></span> <br />
 
-                                <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><span><i
-                                            class="fas fa-star"></i></span>
-                                </div>
+                        <div class="img2" id="bleu"></div>
+                        <div class="desc2">
+                            <div><b> Hôtel Tout bleu et <br /> Blanc </b> </div>
+                            <div>Nuit à partir de 68<b>€</b></div>
+
+                            <div class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><span><i
+                                        class="fas fa-star"></i></span>
                             </div>
-                        </a>
+                        </div>
+
                     </div>
-                </aside>
+                </div>
             </aside>
+
 
         </main>
 

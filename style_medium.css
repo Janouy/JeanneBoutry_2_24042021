@@ -195,6 +195,7 @@ body{
 
     flex-direction: column;
     width: 100%;
+    font-size: 0.8em;
 }
 
 
@@ -221,48 +222,6 @@ body{
 
 }
 
-#cannebiere{
-
-    background-size: 120% 180%;
-    background-position-x: 50%;
-    background-position-y: 30%;
-}
-
-#port{
-
-    background-size: 120% 180%;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-
-#mouettes{
-
-    background-size: 120% 180%;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-
-#mer{
-
-    background-size: 100% 180%;
-    background-position-x: 50%;
-    background-position-y: 50%;
-  
-}
-
-#panier{
-
-    background-size: 100% 180%;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
-
-#amina{
-
-    background-size: 120% 250%;
-    background-position-x: 50%;
-    background-position-y: 50%;
-}
 /* fin bloc Marseille*/
 
 /* début bloc pop*/
@@ -270,6 +229,7 @@ body{
 
     margin-top: 5%;
     width: 100%;
+    height: 1000px;
     background-color: #FFFF;
 }
 
@@ -281,7 +241,6 @@ body{
 .carte_populaire{
 
     width: 90%;
-    height: 20%;
     box-shadow: 0px 15px 12px #f2f2f2;
     margin-bottom: 10%;
 
@@ -294,23 +253,6 @@ body{
 
 }
   
-.img2{
-
-    background-size: 120% 100%;
-   
-}
-
-#soleil{
-
-    background-size: 180% 100%;
-}
-
-#eau{
-
-    background-size: 180% 140%;
-    background-position-x: 40%;
-}
-
 /* fin du bloc pop*/
 /* fin du bloc corps */
 
