@@ -284,21 +284,23 @@ body{
     width: 85%;
 }
  
-
-
 /* fin du bloc pop*/
-
 /* fin du bloc corps */
 
-/*début du bloc activités*/
-
+/* début du bloc activités */
 
 #activites{
 
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+    margin-bottom: 50px;
+    width: 90%;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+#activites h2{
+
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 #act{
@@ -306,100 +308,73 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: auto;
     width: 100%;
-    height: 1500px;
-    
-
 }
 
 .vignette{
 
-    width: 90%;
-    height: 15%;
-  
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10%;
 }
+
 
 .vignette2{
 
-     width: 90%;
-     height: 30%;
-  
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10%;
 }
 
 .vignette3{
 
-    height: 50%;
-  
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10%;
 }
 
-.vignette5{
+.vignette4{
 
-    height: 45%;
-
-}
-
-.vignette p .vignette3 p{
-
-    padding-top: 1%;
-   
-}
-
-.vignette4 p .vignette5 p{
-
-    padding-bottom: 1%;
-
-}
-
-.pict3{
-
-    height: 75%;
-  
-}
-
-#vieux_port{
-
-    background-size: 180% 180%;
-    background-position-x: 50%;
-    background-position-y: 20%;
-}
-
-
-#calanques{
-
-    background-size: 180% 160%;
-    background-position-x: 50%;
-    background-position-y: 15%;
-}
-
-#pomegues{
-
-    background-size: 100% 270%;
-    background-position-x: 50%;
-    background-position-y: 35%;
-
-}
-
-#frioul{
-
-    background-size: 100% 140%;
-    background-position-x: 50%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 8px 6px #F2F2F2;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10%;
     
 }
 
-#garde{
+.vignette p, .vignette2 p, .vignette3 p, .vignette4 p{
 
-    background-size: 100% 140%;
+    padding-left: 5%;
+    padding-top: 0;
+    font-weight: bold;font-family: ralewaybold, sans-serif;
+    
+}
+
+.pict3, .pict4{
+
+    width: 100%;
+    height: 80%;
+    border-radius: 20px 20px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position-x: 50%;
+    background-position-y: 50%;
+    
 }
 
-#longchamp{
+/* fin du  bloc activités */
 
-    background-size: 120% 160%;
-    background-position-x: 40%;
-    background-position-y: 10%;
-}
-
-/*fin du bloc activités*/
+    
 
 /* début footer */
 #footer{
